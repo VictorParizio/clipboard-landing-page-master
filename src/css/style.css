@@ -1,0 +1,57 @@
+header {
+    /* height: 100vh; */
+    background: url(../images/bg-header-desktop.png) no-repeat;
+    background-size: 100% 70%;
+    text-align: center;
+    padding-top: 130px;
+}
+
+header>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--font-dark);
+    font-size: 4.5rem;
+    margin: 50px 0 20px;
+}
+
+header p {
+    width: 700px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+header .download {
+    display: flex;
+    gap: 16px;
+    margin: 48px;
+}
+
+header .download a {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 17px 40px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+header .download a:hover {
+    opacity: 80%;
+}
+
+header .download .ios {
+    background-color: var(--strong);
+}
+
+header .download .mac {
+    background-color: var(--light);
+}

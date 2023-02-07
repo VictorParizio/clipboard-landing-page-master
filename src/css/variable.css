@@ -1,0 +1,6 @@
+:root {
+    --strong: hsl(171, 66%, 44%);
+    --light: hsl(233, 100%, 69%);
+    --font-dark: hsl(210, 10%, 33%);
+    --font-pale: hsl(201, 11%, 66%);
+}
