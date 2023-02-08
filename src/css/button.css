@@ -1,0 +1,32 @@
+.download {
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.download a {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 17px 40px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.download a:hover {
+    opacity: 80%;
+}
+
+.download .ios {
+    background-color: var(--strong);
+}
+
+.download .mac {
+    background-color: var(--light);
+}
+
