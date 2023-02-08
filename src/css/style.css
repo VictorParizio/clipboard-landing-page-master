@@ -42,42 +42,46 @@ header .download .ios {
     background-color: var(--strong);
 }
 
-header .download .mac {
+.download .mac {
     background-color: var(--light);
 }
 
-section h2 {
-    text-align: center;
-    font-size: 3.5rem;
-    margin-bottom: 20px;
+.computer {
+    position: relative;
+    height: 572px;
+    width: 700px;
 }
 
-section>div {
-    margin-top: 80px;
-    width: 1440;
-    display: flex;
-    gap: 110px;
+.computer img{
+    position: absolute;
+    right: 10px;
 }
 
-section .snippets {
+.snippets {
     width: 350px;
-    margin-right: 290px;
+    margin-right: 190px;
 }
 
-section .snippets h3{
-    font-size: 2.4rem;
-    margin: 55px 0 10px;
-}
-
-section .snippets h3:first-child{
+.snippets h3:first-child {
     margin-top: 65px;
-}
-
-section .snippets p{
-    font-size: 1.6rem;
-    font-weight: 600;
 }
 
 .clipboard img {
     margin-top: 100px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tools .tool {
+    text-align: center;
+    width: 350px;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
 }
