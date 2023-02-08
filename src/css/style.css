@@ -6,22 +6,13 @@ header {
     padding-top: 130px;
 }
 
-header>div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 header h1 {
-    color: var(--font-dark);
     font-size: 4.5rem;
     margin: 50px 0 20px;
 }
 
-header p {
-    width: 700px;
-    letter-spacing: 1px;
-    line-height: 30px;
+header .text {
+    font-size: 2rem;
 }
 
 header .download {
@@ -54,4 +45,38 @@ header .download .ios {
 
 header .download .mac {
     background-color: var(--light);
+}
+
+/* ------------SNIPPETS-------------- */
+
+section h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+section>div {
+    margin-top: 80px;
+    width: 1440;
+    display: flex;
+    gap: 110px;
+}
+
+section .snippets {
+    width: 350px;
+    margin-right: 290px;
+}
+
+section .snippets h3{
+    font-size: 2.4rem;
+    margin: 55px 0 10px;
+}
+
+section .snippets h3:first-child{
+    margin-top: 65px;
+}
+
+section .snippets p{
+    font-size: 1.6rem;
+    font-weight: 600;
 }

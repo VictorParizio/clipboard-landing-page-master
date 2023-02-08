@@ -1,0 +1,19 @@
+header>div,
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3{
+    color: var(--font-dark);
+}
+
+p {
+    line-height: 30px;
+}
+
+.text {
+    width: 700px;
+    text-align: center;
+}

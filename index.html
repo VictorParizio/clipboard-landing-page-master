@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
     <title>Frontend Mentor | Clipboard landing page</title>
 
+    <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/variable.css">
     <link rel="stylesheet" href="src/css/style.css">
@@ -16,18 +17,33 @@
 </head>
 
 <body>
+    <header>
+        <img src="src/images/logo.svg" alt="Logo Clipboard">
+        <div>
+            <h1>A history of everything you copy</h1>
+            <p class="text">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+            <div class="download">
+                <a download="" class="ios">Download for iOS</a>
+                <a download="" class="mac">Download for Mac</a>
+            </div>
+        </div>
+    </header>
     <main>
-        <header>
-            <img src="src/images/logo.svg" alt="Logo Clipboard">
+        <section >
+            <h2>Keep track of your snippets</h2>
+            <p class="text">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
             <div>
-                <h1>A history of everything you copy</h1>
-                <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-                <div class="download">
-                    <a download="" class="ios" >Download for iOS</a>
-                    <a download="" class="mac">Download for Mac</a>
+                <img src="src/images/image-computer.png" alt="">
+                <div class="snippets">
+                    <h3>Quick Search</h3>
+                    <p>Easily search your snippets by content, category, web address, application, and more.</p>
+                    <h3>iCloud Sync</h3>
+                    <p>Instantly saves and syncs snippets across all your devices.</p>
+                    <h3>Complete History</h3>
+                    <p>Retrieve any snippets from the first moment you started using the app.</p>
                 </div>
             </div>
-        </header>
+        </section>
     </main>
 </body>
 
