@@ -5,6 +5,11 @@ section {
     align-items: center;
 }
 
+header,
+section {
+    margin-bottom: 150px;
+}
+
 h1, h2, h3{
     color: var(--font-dark);
 }

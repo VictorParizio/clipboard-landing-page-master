@@ -1,5 +1,4 @@
 header {
-    /* height: 100vh; */
     background: url(../images/bg-header-desktop.png) no-repeat;
     background-size: 100% 70%;
     text-align: center;
@@ -18,7 +17,7 @@ header .text {
 header .download {
     display: flex;
     gap: 16px;
-    margin: 48px;
+    margin-top: 48px;
 }
 
 header .download a {
@@ -46,8 +45,6 @@ header .download .ios {
 header .download .mac {
     background-color: var(--light);
 }
-
-/* ------------SNIPPETS-------------- */
 
 section h2 {
     text-align: center;
@@ -79,4 +76,8 @@ section .snippets h3:first-child{
 section .snippets p{
     font-size: 1.6rem;
     font-weight: 600;
+}
+
+.clipboard img {
+    margin-top: 100px;
 }
