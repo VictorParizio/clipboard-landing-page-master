@@ -10,7 +10,9 @@
     letter-spacing: 1px;
     font-size: 1.6rem;
     font-weight: 600;
-    padding: 17px 40px;
+    padding: 17px;
+    width: 230px;
+    text-align: center;
     border: none;
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);
     border-radius: 40px;
@@ -38,7 +40,6 @@
     }
 
     .download a {
-        padding: 17px 40px;
         width: 300px;
     }
 }
