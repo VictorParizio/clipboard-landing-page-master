@@ -4,6 +4,7 @@ html {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 62.5%;
     color: var(--font-pale);
+    overflow-x: hidden;
 }
 
 * {
@@ -11,4 +12,5 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-size: 1.8rem;
+    text-decoration: none;
 }

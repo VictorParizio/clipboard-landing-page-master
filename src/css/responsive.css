@@ -1,0 +1,274 @@
+@media (max-width: 1252px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    section>div {
+        gap: 80px;
+    }
+
+    .computer {
+        width: 650px;
+    }
+
+    .snippets {
+        margin-right: 50px;
+    }
+
+    .tools .tool {
+        width: 300px;
+    }
+
+    .pages {
+        gap: 50px;
+    }
+
+    footer .footer {
+        gap: 100px;
+    }
+
+    footer .footer .links {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1080px) {
+    section>div {
+        margin-top: 80px;
+        gap: 50px;
+    }
+
+    .computer {
+        width: 600px;
+    }
+
+    footer .footer {
+        gap: 80px;
+    }
+}
+
+
+@media (max-width: 985px) {
+
+    header,
+    section {
+        margin-bottom: 100px;
+    }
+
+    section>div {
+        margin-top: 50px;
+        gap: 40px;
+    }
+
+    .computer {
+        width: 500px;
+    }
+
+    .snippets {
+        width: 300px;
+        margin-right: 0px;
+    }
+
+    .snippets h3:first-child {
+        margin-top: 45px;
+    }
+
+    .pages {
+        gap: 40px;
+    }
+
+    footer .footer {
+        gap: 50px;
+    }
+
+    footer .footer .links {
+        gap: 20px 50px;
+    }
+}
+
+@media (max-width: 942px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    header .text {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .text {
+        width: 550px;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 30px 0 10px;
+    }
+
+    h3~p {
+        font-size: 1.6rem;
+        line-height: 24px;
+    }
+
+    p {
+        line-height: 28px;
+    }
+
+    .computer {
+        height: 300px;
+        width: 300px;
+    }
+
+    .computer img {
+        width: 500px;
+    }
+
+    .snippets {
+        width: 250px;
+    }
+
+    .snippets h3:first-child {
+        margin-top: 0;
+    }
+
+    .clipboard img {
+        margin-top: 80px;
+        height: 400px;
+    }
+
+    .tools {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px 20px;
+    }
+
+    .tools .tool {
+        width: 300px;
+    }
+
+    .pages {
+        margin-top: 100px;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        height: 250px;
+        padding: 50px 25px;
+    }
+
+    footer .footer .links {
+        gap: 20px 50px;
+        height: 110px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 680px) {
+    header {
+        background: url(../images/bg-header-mobile.png) no-repeat;
+        background-size: 100% 70%;
+        padding-top: 110px;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+        width: 320px;
+    }
+
+    header .text,
+    .text {
+        font-size: 1.6rem;
+    }
+
+    h2,
+    .text,
+    h3~p {
+        width: 310px;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h3~p {
+        font-size: 1.6rem;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    section>div {
+        flex-direction: column;
+    }
+
+    .computer {
+        height: 200px;
+        width: 300px;
+    }
+
+    .computer img {
+        right: 0;
+        width: 320px;
+    }
+
+    .snippets h3:first-child {
+        margin-top: 50px;
+    }
+
+    .clipboard img {
+        margin-top: 50px;
+        height: 225px;
+    }
+
+    .tools {
+        gap: 70px;
+    }
+
+    .tools img {
+        height: 30px;
+    }
+
+    .tools .tool {
+        width: 300px;
+    }
+
+    .tools .tool h3 {
+        margin-top: 30px;
+    }
+
+    .pages {
+        width: 300px;
+        gap: 60px;
+    }
+
+    footer {
+        height: 530px;
+        padding: 50px 0;
+    }
+
+    footer .footer {
+        gap: 40px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer .links {
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 200px;
+    }
+
+    .attribution {
+        width: 270px;
+    }
+}

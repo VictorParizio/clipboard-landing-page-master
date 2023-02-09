@@ -14,6 +14,7 @@
     border: none;
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);
     border-radius: 40px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
@@ -30,3 +31,14 @@
     background-color: var(--light);
 }
 
+@media (max-width: 680px) {
+    .download {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .download a {
+        padding: 17px 40px;
+        width: 300px;
+    }
+}

@@ -5,11 +5,6 @@ header {
     padding-top: 130px;
 }
 
-header h1 {
-    font-size: 4.5rem;
-    margin: 50px 0 20px;
-}
-
 header .text {
     font-size: 2rem;
 }
@@ -49,7 +44,68 @@ header .text {
     width: 350px;
 }
 
+.tools img {
+    height: 40px;
+}
+
 .pages{
     display: flex;
     align-items: center;
+}
+
+footer {
+    background-color: hsl(0, 0%, 95%);
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    color: var(--font-pale);
+    display: grid;
+    justify-content: center;
+}
+
+footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+
+footer .footer img {
+    height: 55px;
+}
+
+footer .footer .links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px 90px;
+    height: 70px;
+    width: 510px;
+    text-align: start;
+    margin-right: 150px;
+}
+
+footer .footer .social{
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer .social i{
+    font-size: 2.5rem;
+    display: flex;
+    gap: 20px;
+}
+
+footer a {
+    font-weight: 600;
+    color: var(--font-dark);
+    transition: 0.2s ease-in-out;
+}
+
+footer a:hover { 
+    color: var(--strong);
+}
+
+.attribution{
+    margin-top: 30px;
 }
